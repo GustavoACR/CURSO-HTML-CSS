@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+p{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: none;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    text-transform: none;
+    /* word-wrap: break-word;
+    word-break: break-all; */
+
+}
+span{
+    text-decoration: line-through;
+    color: brown
+}

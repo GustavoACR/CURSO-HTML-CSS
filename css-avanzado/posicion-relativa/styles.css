@@ -1,0 +1,21 @@
+body{
+    font-family:sans-serif;
+    color: #222;
+    background-color: #eee;
+    margin: 0;
+}
+
+.box{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.box--blue{
+    background-color: blue;
+    top: 50px;
+    left: 50px;
+    z-index: 20;
+}

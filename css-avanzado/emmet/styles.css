@@ -1,0 +1,12 @@
+body{
+    font-family:sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+header{
+    /* m10   m10p  m10e FUNCIONA IGUAL PARA LOS PADDING*/
+    margin: 10px;
+    margin: 10%;
+    margin: 10em;
+    
+}

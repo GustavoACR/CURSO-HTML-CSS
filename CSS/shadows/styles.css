@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 300px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 40px 0 #0007;
+    padding: 20px;
+    padding-top:10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:#444;
+    text-align: center;
+}
+
+p{
+    list-style: none;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14px;
+    text-shadow: 0 0 4px #f88;
+}
+
+img{
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0 0 40px 0 #0007;
+    /* filter: drop-shadow(0 0 20px #f88); imagenes que son transparent y no tienen fondo, se le puede aplicar un drop-shadow para que se vea mejor */
+}

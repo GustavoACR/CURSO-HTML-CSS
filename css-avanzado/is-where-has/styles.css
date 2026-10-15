@@ -1,0 +1,36 @@
+body{
+    font-family:sans-serif;
+    color: #222;
+    background-color: #eee;
+}
+/* section .elemento1,
+section .elemento2,
+section .elemento3{
+    color: red;
+} */
+
+/* section :is(.elemento1, .elemento2, .elemento3){
+    color: blue;
+} */
+section :where(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+section :has(.elemento){
+    background-color: black;
+}
+
+ul + div{
+    background-color: black;
+}
+/* En caso de que a UL le siga un DIV modificamos el ul*/
+ul:has(+div){
+    background-color: black;
+}
+
+label:has(input:valid){
+    color: green;
+}
+label:has(input:invalid){
+    color: red;
+}

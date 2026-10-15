@@ -1,0 +1,11 @@
+body{
+    font-family:sans-serif;
+    color: brown;
+    background-color: #eee;
+}
+h1{
+    color: inherit;
+}
+p{
+    color: blue;
+}

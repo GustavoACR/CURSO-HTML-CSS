@@ -1,0 +1,40 @@
+body{
+    font-family:sans-serif;
+    color: #222;
+    background-color: #eee;
+}
+/* elemento dentro de otro, con que este dentro DESENDIENTE*/
+ul li{
+    color:#666;
+}
+/* se use el ">" para modificar elementos que son hijos directos */
+li > em{
+    color: #f00;;
+}
+/* .ingrediente-faltante{
+    color: red;
+}
+#ingrediente-secreto{
+    color: blue;
+} */
+/* selector por atributo */
+img[src="pin.png"]{
+    width: 100%;
+}
+/* modificando por tipo de archivo */
+/* img[src$="png"]{
+    width: 100%;
+} */
+/* modidicando por nombre */
+/* img[src^="pin"]{
+    width: 100%;
+} */
+
+/* SELECTOR DE HERMANO ADYACENTE seleccionar un elemento que sigue despues de otro*/
+h1 + p + P{
+    color: #00f;
+}
+/* SELECTRO DE HERMANOS GENERALES */
+/* h1 ~ p{
+    color: #00f;
+} */

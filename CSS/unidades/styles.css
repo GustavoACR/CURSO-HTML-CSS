@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+div{
+    background-color: #ededed;
+    padding: 20px;
+    /*medida absoluta px, cm, mm, in, las medidas relativas dependen del tamaño de la ventana del navegador o del contenedor como el %
+    em es una unidad relativa al tamaño de la fuente del elemento va al elemento padre y obtiene el valor de la fuente del elemento padre
+    rem es una unidad relativa al tamaño de la fuente del elemento raíz osea el elemento <html>
+    vh es una unidad relativa a la altura de la ventana del navegador
+    wh es una unidad relativa al ancho de la ventana del navegador
+    vmax es una unidad relativa al mayor de los dos valores
+    vmin es una unidad relativa al menor de los dos valores
+    */
+
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10vh;
+}
+h1{
+    margin: 0;
+}
+span{
+    font-size: 16px;
+    color: #999;
+    font-weight: 100
+}
+p{
+    color: #555;
+}

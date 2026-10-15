@@ -1,0 +1,16 @@
+p{
+    color: brown;
+    font-size: 28px;
+}
+li{
+    color: red
+}
+span{
+    color:aqua
+}
+.faltante{
+    color: rgb(26, 228, 110)
+}
+#Ingrediente-secreto{
+    color:blue
+}

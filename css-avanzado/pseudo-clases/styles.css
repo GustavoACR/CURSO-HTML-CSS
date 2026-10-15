@@ -1,0 +1,71 @@
+body{
+    font-family:sans-serif;
+    color: #222;
+    background-color: #eee;
+}
+h1{
+    color: #48e;
+    margin: 30px;
+}
+h1:hover{
+    background-color: #ccc;
+    color: black;
+}
+ul{
+    background-color: inherit;
+}
+h1:active{
+    background-color: #999;
+    color: #fff;
+}
+li:first-child{
+    color:red;
+}
+li:nth-child(3){
+    color: #0f0;
+}
+/* li:nth-child(2n){
+    background-color: #ccc;
+    padding: 5px;
+} */
+li:last-child{
+    color: red;
+}
+li:nth-of-type(2){
+    color:#eee
+}
+/* .lista li{
+    color:#fff;
+} */
+.lista li:not(.elem-5){
+    color: #48e;
+}
+div{
+    border: 1px solid #222;
+}
+div:empty{
+    border: none;
+}
+/* REVISANDO EL ESTADO DE LOS CHECKBOX */
+input[type="checkbox"]{
+    margin: 50px;
+}
+input[type="checkbox"]:checked{
+    margin: 0;
+}
+
+/* SELECCIONANDO LINKS VISITADOS Y NO VISITADOS */
+a:link{
+    color:red
+}
+a:visited{
+    color:green
+}
+
+/* SELECCIONANDO INPUTS INVALIDOS Y VALIDOS*/
+input:valid{
+    color: green;
+}
+input:invalid{
+    color: red;
+}

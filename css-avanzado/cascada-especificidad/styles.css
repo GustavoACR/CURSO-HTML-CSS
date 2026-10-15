@@ -1,0 +1,14 @@
+body{
+    font-family:sans-serif;
+    color: #222;
+    background-color: #eee;
+}
+#titulo{
+    color: green;
+}
+.titulo{
+    color: red;
+}
+h1{
+    color: blue !important
+}

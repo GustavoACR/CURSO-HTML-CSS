@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+    color: #eee;
+    background-color: #222;
+}
+video{
+    max-width: 500px;
+}

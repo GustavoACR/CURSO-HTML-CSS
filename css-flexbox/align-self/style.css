@@ -1,0 +1,38 @@
+body{
+    font-family:sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid #000;
+    margin: 20px;
+    align-items: center;
+    height: 300px;
+}
+
+.flex-item{
+    background-color: #911;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    flex: 1 1 150px;
+}
+
+.item-5{
+    align-self: stretch;
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+    /* flex-grow: 2; */
+    flex-shrink: 3;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+    /* flex-grow: 4; */
+    align-self: stretch;
+}

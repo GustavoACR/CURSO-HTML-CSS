@@ -1,0 +1,28 @@
+body{
+    font-family:sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.flexbox{
+    display: flex;
+    /* flex-direction: row, row-reverse, column, column-reverse; */
+    flex-direction: column;
+}
+
+.flex-item{
+    width: 150px;
+    background-color: #911;
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+}
+
+.flex-item:nth-child(3){
+    background-color: #000;
+}
